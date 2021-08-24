@@ -4,21 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Python Run",
+            "label": "echo",
             "type": "shell",
-            "command": "python",
-            "args": [
-                "${file}"
-            ],
-            "options": {
-                "env": {
-                    "PYTHONIOENCODING": "UTF-8"
-                }
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true               
-            }
+            "command": "echo Hello"
         }
     ]
 }
